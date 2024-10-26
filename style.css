@@ -1,0 +1,28 @@
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #7c707b;
+  }
+  
+  .navbar-brand, .nav-link, .form-control {
+    color: rgb(249, 205, 231);
+   
+  }
+
+  
+  /* Estilo de la cuadrícula */
+  .container p {
+    color: #be96b1;
+    line-height: 1.6;
+    padding: 10px;
+    background-color: #f4f9b6;
+    border-radius: 5px;
+  }
+  
+  /* Ajustes de texto */
+  h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #be96b1;
+  }
+ 
