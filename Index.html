@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MARTINA </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <!-- Menú desplegable para tamaño SM y MD -->
+      <li class="nav-item d-lg-none"><a class="nav-link" href="#">MARTINA</a></li>
+      <li class="nav-item d-lg-none"><a class="nav-link" href="#">GONZALEZ</a></li>
+      <li class="nav-item d-lg-none"><a class="nav-link" href="#">CERECEDA</a></li>
+      <!-- Submenú para Opciones en tamaño SM y MD -->
+      <li class="nav-item dropdown d-lg-none">
+        <a class="nav-link dropdown-toggle" href="#" id="optionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Opciones
+        </a>
+        <div class="dropdown-menu" aria-labelledby="optionsDropdown">
+          <a class="dropdown-item" href="#">Opción 1</a>
+          <a class="dropdown-item" href="#">Opción 2</a>
+          <a class="dropdown-item" href="#">Opción 3</a>
+          <a class="dropdown-item" href="#">Opción 4</a>
+        </div>
+      </li>
+      <!-- Menú principal en tamaño LG -->
+      <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">MARTINA</a></li>
+      <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">GONZALEZ</a></li>
+      <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">CERECEDA</a></li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+  </div>
+</nav>
+
+<!-- Título y carrusel -->
+<div class="container mt-4">
+  <h3 class="text-center">MARTINA</h3>
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p class="text-center">GONZALEZ GONZALEZ GONZALEZ</p>
+      </div>
+      <div class="carousel-item">
+        <p class="text-center">.CERECEDA CERECEDA CERECEDA</p>
+      </div>
+      <div class="carousel-item">
+        <p class="text-center">...........................</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="row mt-4">
+    <div class="col-lg-3 d-none d-lg-block">
+      <!-- Opciones al lado de la grilla en pantallas grandes -->
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">Opción 1</a>
+        <a href="#" class="list-group-item list-group-item-action">Opción 2</a>
+        <a href="#" class="list-group-item list-group-item-action">Opción 3</a>
+        <a href="#" class="list-group-item list-group-item-action">Opción 4</a>
+      </div>
+    </div>
+    <div class="col-lg-9">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <p>MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA MARTINA</p>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
